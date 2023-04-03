@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "Power BI Custom Visuals",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"forwardPorts": [8080],
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash"
+			},
+			"extensions": [
+				//"ms-vscode.vscode-typescript-tslint-plugin",
+				"dbaeumer.vscode-eslint",
+				"usernamehw.errorlens",
+				"natqe.reload",
+				"GitLab.gitlab-workflow",
+				"CodeStream.codestream",
+				"leizongmin.node-module-intellisense",
+				"aaron-bond.better-comments",
+				"ms-vscode.vscode-typescript-next",
+				"mhutchie.git-graph",
+				"eamodio.gitlens"
+			]
+		}
+	},
+	"remoteUser": "node"
+}
+
+
+

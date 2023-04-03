@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0",
+		"author": {"name":"Martin Hachiya","email":"martin.hachiya299@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/TestPbivizContainer.pbiviz.json"
+			}
+		],
+		"visual": {"name":"TestPbiviz","displayName":"TestPbiviz","guid":"TestPbivizContainer","visualClassName":"Visual","version":"1.0.0","description":"Test pbiviz container","supportUrl":"none","gitHubUrl":"none"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
